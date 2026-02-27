@@ -1,11 +1,17 @@
+body{
+    
+}
 .box1{
     display: flex;
     margin-bottom: 20px;
+    border-radius: 30px;
 }
 .btn{
     flex: 1;
     padding: 15px;
-    border:1px solid #ccc;
     background: white;
     font-size: 14px;
+}
+.btn.active{
+    background: lightblue;
 }
