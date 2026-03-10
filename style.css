@@ -1,5 +1,16 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+.card{
+    width: 380px;
 }
 .box1{
     display: flex;
@@ -9,9 +20,68 @@ body{
 .btn{
     flex: 1;
     padding: 15px;
+    border:1px solid #ccc;
+    border-radius: 2px;
     background: white;
     font-size: 14px;
 }
 .btn.active{
     background: lightblue;
+    border-right: 1px solid #ccc;
+}
+.box2{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    height: 40px;
+}
+.social-btn{
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration-color: none;
+    height: 40px;
+}
+.facebook{
+     background-color:#3b5998;
+}
+.twitter{
+    background-color: #55acee;
+}
+.linkedin{
+    background-color: #0077b5;
+}
+.btnGloogle{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.box4{
+    display: flex;
+    margin-bottom: 15px;
+}
+.box4 hr{
+    flex: 1;
+}
+.box4 span{
+    padding: 0 20px;
+}
+.field{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+.btnsubmit{
+    width: 100%;
+    color:white;
+    background-color: #0077b5;
+    border: none;
+    height: 30px;
 }
