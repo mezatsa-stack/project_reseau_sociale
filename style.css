@@ -25,9 +25,12 @@ body{
     background: white;
     font-size: 14px;
 }
-.btn :hover{
-    color:  lightblue;
+.btn:hover{
+    background:  lightblue;
     border-right: 1px solid #ccc;
+}
+.btn.active{
+    background-color: #0077b5;
 }
 .box2{
     display: flex;
@@ -84,4 +87,10 @@ body{
     background-color: #0077b5;
     border: none;
     height: 30px;
+    margin-bottom: 15px;
+}
+.field2{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
 }

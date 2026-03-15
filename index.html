@@ -13,25 +13,31 @@
             <button onclick="fonct1()" class="btn active" id="btn1id">Sign In</button>
             <button onclick="fonct2()" class="btn" id="btn2id">Free Sign In</button>
         </div>
-        <div class="glob" id="globid">
-        <div class="box2">
-            <a href="https://WWW.facebook.com" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://WWW.twitter.com" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://WWW.linkedin.com" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        <div class="box3">
+        <div class="glob1" id="glob1id">
+            <div class="box2">
+                <a href="https://WWW.facebook.com" class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://WWW.twitter.com" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://WWW.linkedin.com" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
             <button class="btnGloogle"><img src="https://sl.bing.net/coPX3JJ3rfU" width="18">
                 SIGN IN WITH GOOGLE
             </button>
+            <div  class="box4">
+                <hr><span>Or Email</span><hr>
+            </div>
+            <form > <input type="email" placeholder="Email Address" class="field" id="mailid"></form>
+            <input type="password" placeholder="password" class="field" id="passid">
+            <button type="submit" class="btnsubmit" id="sumitid">Sign in</button>
         </div>
-        <div  class="box4">
-            <hr><span>Or Email</span><hr>
+        <div class="glob2"id="glob2id" style="display: none;">
+            <input type="text" placeholder="first name" class="field2">
+            <input type="text" placeholder="lastname" class="field2">
+            <input type="email" placeholder="Email Address" class="field2">
+            <input type="password" placeholder="password" class="field2">
+            <input type="password" placeholder="confirm password"class="field2">
+            <button type="submit" class="btnsubmit">create free account</button>
         </div>
-        <form > <input type="email" placeholder="Email Adress" class="field" id="mailid"></form>
-        <input type="password" placeholder="password" class="field" id="passid">
-        <button type="submit" class="btnsubmit" id="sumitid">Sign in</button>
     </div>
-    </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
